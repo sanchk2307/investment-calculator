@@ -1,0 +1,7 @@
+<app-header />
+<app-user-input (submitForm)="onStartCalculate($event)" />
+@if (results && formData) {
+<app-investment-results [results]="results" [initialInvestment]="formData.enteredInitialInvestment" />
+} @else {
+    <p style="text-align: center;">Please enter some values and press "Calculate".</p>
+}
