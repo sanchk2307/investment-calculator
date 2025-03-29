@@ -1,27 +1,51 @@
-# EssentialsPractice
+# Investment Calculator App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+An Investment Calculator built using Angular.
 
-## Development server
+## Features 🌟
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Change filters to know details on your investment
 
-## Code scaffolding
+## Technologies Used 💻
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Technology       | Description                        |
+|------------------|------------------------------------|
+| Angular          | Frontend framework                 |
+| SCSS             | Styling                            |
 
-## Build
+## Setup and Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Prerequisites
 
-## Running unit tests
+Make sure you have the following installed:
+- Node.js (LTS version recommended)
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Follow these steps to set up the project locally:
 
-## Running end-to-end tests
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sanchk2307/netflix-clone.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd netflix-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the app:
+   ```bash
+   ng serve
+   ```
+5. Open the app in your browser:
+   ```
+   http://localhost:4200
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
 
-## Further help
+This project is for educational purposes only and is not affiliated with Netflix.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
